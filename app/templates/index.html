@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda con IA - Nathaly</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#contexto">Contexto</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección: Sobre mí -->
+  <section id="sobre-mi" class="seccion circulo">
+    <h1>Hola, soy Nathaly 👋</h1>
+    <p>Cuidar tus manos es realizar tu bellaza... agenda tu momento especial.</p>
+  </section>
+
+  <!-- Sección: Chat con IA -->
+  <section class="chat-container">
+    <div class="chat-header">
+      <h2>Agenda🤖</h2>
+    </div>
+    <div id="chat-window" class="chat-window"></div>
+    <div class="chat-input">
+      <input type="text" id="chat-message" placeholder="Escribe tu mensaje...">
+      <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+  </section>
+
+  <!-- Sección: Calendario -->
+  <section id="calendario" class="seccion calendario">
+    <h2>Calendario de disponibilidad 📅</h2>
+    <div id="semana-header" class="semana-header"></div>
+    <div id="mes-container"></div>
+    <div id="horas-container" class="oculto"></div>
+  </section>
+
+  <!-- Sección: Lista de citas -->
+  <section id="lista-citas" class="seccion circulo">
+    <h2>Citas agendadas 🗓️</h2>
+    <ul id="citas-lista"></ul>
+  </section>
+
+  <!-- Script -->
+  <script src="/static/js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
