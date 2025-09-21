@@ -1,4 +1,4 @@
-flask
-transformers
-torch
-sentencepiece
+lask
+flask-admin
+flask-sqlalchemy
+
